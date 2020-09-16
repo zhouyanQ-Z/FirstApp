@@ -1,6 +1,7 @@
 package com.swufe.firstapp;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         //String text = inp.getText().toString();
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+       //测试
+        Log.i("loading","onClick msg....");
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
